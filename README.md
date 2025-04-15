@@ -4,6 +4,7 @@ The idea of this repo is to set a standard that can be followed for the creation
 
 ## TODO
 Following to be included in future releases:
+```diff
 1. Examples that use a database
 2. Examples that use caching
 3. Request validation
@@ -12,7 +13,7 @@ Following to be included in future releases:
 6. Containerisation
 7. Infrastructure docker-compose
 8. Encryption of secrets in properties file
-9. Basic API architecture diagram
+- 9. Basic API architecture diagram
 10. Security and vulnerability scanning
 11. Test containers
 12. Code coverage
@@ -20,3 +21,9 @@ Following to be included in future releases:
 14. CI/CD scripts
 15. Postman scripts
 16. Versioning
++ 17. Update architecture diagram to fit in with this code base
++ 18. Convert to modulith - this allows lots of other extras that can be added like:
++    * API Gateway
++    * Rate limiting
++    * Circuit breaker
+```
