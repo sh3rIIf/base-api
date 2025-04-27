@@ -1,4 +1,4 @@
-package com.base.baseapi;
+package com.base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class BaseApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BaseApiApplication.class, args);
 	}
-
 }

@@ -22,7 +22,7 @@ Following to be included in future releases:
 15. Postman scripts
 16. Versioning
 + 17. Update architecture diagram to fit in with this code base
-+ 18. Convert to modulith - this allows lots of other extras that can be added like:
+- 18. Convert to multi module - this allows lots of other extras that can be added like:
 +    * API Gateway
 +    * Rate limiting
 +    * Circuit breaker

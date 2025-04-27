@@ -1,6 +1,6 @@
-package com.base.baseapi.module.helloworld.channel.rest;
+package com.base.baseapi.helloworld.channel.rest;
 
-import com.base.baseapi.module.helloworld.service.HelloWorldService;
+import com.base.baseapi.helloworld.service.HelloWorldService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
