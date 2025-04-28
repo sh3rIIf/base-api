@@ -31,7 +31,7 @@
 
         <dependency>
             <groupId>com.base.baseapi</groupId>
-            <artifactId>module-helloworld</artifactId>
+            <artifactId>basic</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
