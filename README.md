@@ -5,7 +5,7 @@ The idea of this repo is to set a standard that can be followed for the creation
 ## TODO
 Following to be included in future releases:
 ```diff
-1. Examples that use a database
+- 1. Examples that use a database
 2. Examples that use caching
 3. Request validation
 4. Request and response mappers
