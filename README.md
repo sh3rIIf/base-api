@@ -7,8 +7,8 @@ Following to be included in future releases:
 ```diff
 - 1. Examples that use a database
 2. Examples that use caching
-3. Request validation
-4. Request and response mappers
+- 3. Request validation
+- 4. Request and response mappers
 5. Security
 6. Containerisation
 7. Infrastructure docker-compose
@@ -21,9 +21,10 @@ Following to be included in future releases:
 14. CI/CD scripts
 15. Postman scripts
 16. Versioning
-+ 17. Update architecture diagram to fit in with this code base
+17. Update architecture diagram to fit in with this code base
 - 18. Convert to multi module - this allows lots of other extras that can be added like:
-+    * API Gateway
-+    * Rate limiting
-+    * Circuit breaker
+    * API Gateway
+    * Rate limiting
+    * Circuit breaker
++ 19. Add logging
 ```

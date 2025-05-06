@@ -11,7 +11,7 @@
 
 	<groupId>com.base</groupId>
 	<artifactId>base-api</artifactId>
-	<version>1.0.1</version>
+	<version>1.1.0</version>
 	<packaging>pom</packaging>
 	<name>base-api</name>
 	<description>Base API project for Spring Boot</description>
@@ -27,6 +27,7 @@
 		<!-- modules -->
 		<module>basic</module>
 		<module>database</module>
-	</modules>
+        <module>validation</module>
+    </modules>
 
 </project>
