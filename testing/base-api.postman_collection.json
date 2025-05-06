@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "4f4c5985-f5b2-4562-8be3-c7541031dd6b",
+		"name": "base-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44196989",
+		"_collection_link": "https://sh3riif-4093735.postman.co/workspace/sh3rIIf's-Workspace~86497e3e-fce3-4ebc-8fc3-3a43ded2569e/collection/44196989-4f4c5985-f5b2-4562-8be3-c7541031dd6b?action=share&source=collection_link&creator=44196989"
+	},
+	"item": [
+		{
+			"name": "basic",
+			"item": [
+				{
+					"name": "helloworld",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8181/helloworld/sayhello",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"helloworld",
+								"sayhello"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "byeworld",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8181/byeworld/saybye",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"byeworld",
+								"saybye"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "database",
+			"item": [
+				{
+					"name": "add customer",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"japie\",\r\n    \"telNumber\": \"0821234567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8181/customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get customer",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"japie\",\r\n    \"telNumber\": \"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8181/customer/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"customer",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "validation",
+			"item": [
+				{
+					"name": "convert string",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"stringToConvert\": \"convert THIS string\",\r\n    \"conversionType\": \"LOWERCASE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8181/validation/convert",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"validation",
+								"convert"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
