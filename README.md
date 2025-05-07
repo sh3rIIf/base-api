@@ -23,6 +23,9 @@ This module shows how to make use of caching.
 ### validation
 This module includes request validation. It also shows how to create custom "Enumeration" validation.
 
+### restclient
+This module shows how to call another REST API for inter-service communication in microservices architecture or to call an external 3rd party REST API. This example calls the helloworld/sayhello endpoint in the basic service.
+
 ### security - TODO
 This module will show how to implement basic authentication on endpoints.
 
@@ -54,4 +57,7 @@ Following to be included in future releases(excludes items marked as TODO in oth
 + 6. CI/CD scripts
 + 7. Update architecture diagram to fit in with this code base
 + 8. Add logging
++ 9. Integration testing
++ 10. Unit testing
++ 11. Update restclient module to make use of adapter instead of going direct from service layer
 ```

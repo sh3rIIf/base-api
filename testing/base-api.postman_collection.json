@@ -162,6 +162,34 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "restclient",
+			"item": [
+				{
+					"name": "hello world",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8181/restclient/helloworld",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"restclient",
+								"helloworld"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
