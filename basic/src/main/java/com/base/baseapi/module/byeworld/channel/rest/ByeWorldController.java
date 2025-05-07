@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/byeworld")
+@RequestMapping(value = "/basic/byeworld")
 public class ByeWorldController {
 
     private ByeWorldService byeWorldService;
@@ -27,7 +27,6 @@ public class ByeWorldController {
             @ApiResponse(responseCode = "200", description = "Success")
     })
     @GetMapping(
-            value = "/saybye",
             produces = { MediaType.APPLICATION_JSON_VALUE }
     )
     public ResponseEntity<String> sayBye() {

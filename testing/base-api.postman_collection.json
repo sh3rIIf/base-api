@@ -11,7 +11,7 @@
 			"name": "basic",
 			"item": [
 				{
-					"name": "helloworld",
+					"name": "hello world",
 					"request": {
 						"auth": {
 							"type": "noauth"
@@ -19,35 +19,35 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/helloworld/sayhello",
+							"raw": "http://localhost:8181/basic/helloworld",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8181",
 							"path": [
-								"helloworld",
-								"sayhello"
+								"basic",
+								"helloworld"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "byeworld",
+					"name": "bye world",
 					"request": {
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/byeworld/saybye",
+							"raw": "http://localhost:8181/basic/byeworld",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8181",
 							"path": [
-								"byeworld",
-								"saybye"
+								"basic",
+								"byeworld"
 							]
 						}
 					},

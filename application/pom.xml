@@ -13,7 +13,7 @@
 
     <groupId>com.base.baseapi</groupId>
     <artifactId>application</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>com.base.baseapi</groupId>
             <artifactId>basic</artifactId>
-            <version>1.0.0</version>
+            <version>2.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.base.baseapi</groupId>
@@ -43,6 +43,11 @@
         <dependency>
             <groupId>com.base.baseapi</groupId>
             <artifactId>validation</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.base.baseapi</groupId>
+            <artifactId>restclient</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>

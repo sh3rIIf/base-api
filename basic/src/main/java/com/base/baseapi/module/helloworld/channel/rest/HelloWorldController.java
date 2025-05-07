@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/helloworld")
+@RequestMapping(value = "/basic/helloworld")
 public class HelloWorldController {
 
     private HelloWorldService helloWorldService;
@@ -27,7 +27,6 @@ public class HelloWorldController {
             @ApiResponse(responseCode = "200", description = "Success")
     })
     @GetMapping(
-            value = "/sayhello",
             produces = { MediaType.APPLICATION_JSON_VALUE }
     )
     public ResponseEntity<String> sayHello() {
