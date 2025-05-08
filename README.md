@@ -41,8 +41,8 @@ All documentation related to the repo can be found here.
 ### testing
 Files related to testing e.g. postman scripts can be found here.
 
-### docker - TODO
-Docker compose files to startup relevant infrastructure for use with the repo e.g. redis server for caching. Also add dockerfile to containerise the monolith.
+### docker
+Docker compose files to startup relevant infrastructure for use with the repo e.g. redis server for caching. Also contains dockerfile to containerise the monolith. Use the docker-compose.yml to build and start the api with all external tech as required.
 
 ## TODO
 Following to be included in future releases(excludes items marked as TODO in other sections):

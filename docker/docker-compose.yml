@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  base-api:
+    build:
+      context: ../application/target
+      dockerfile: ../../docker/Dockerfile
+    container_name: base-api
+    ports:
+      - 8080:8080
+    restart: always

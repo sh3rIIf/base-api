@@ -19,12 +19,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/basic/helloworld",
-							"protocol": "http",
+							"raw": "{{host}}/basic/helloworld",
 							"host": [
-								"localhost"
+								"{{host}}"
 							],
-							"port": "8181",
 							"path": [
 								"basic",
 								"helloworld"
@@ -39,12 +37,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/basic/byeworld",
-							"protocol": "http",
+							"raw": "{{host}}/basic/byeworld",
 							"host": [
-								"localhost"
+								"{{host}}"
 							],
-							"port": "8181",
 							"path": [
 								"basic",
 								"byeworld"
@@ -76,12 +72,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8181/customer",
-							"protocol": "http",
+							"raw": "{{host}}/customer",
 							"host": [
-								"localhost"
+								"{{host}}"
 							],
-							"port": "8181",
 							"path": [
 								"customer"
 							]
@@ -110,12 +104,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8181/customer/1",
-							"protocol": "http",
+							"raw": "{{host}}/customer/1",
 							"host": [
-								"localhost"
+								"{{host}}"
 							],
-							"port": "8181",
 							"path": [
 								"customer",
 								"1"
@@ -147,12 +139,10 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8181/validation/convert",
-							"protocol": "http",
+							"raw": "{{host}}/validation/convert",
 							"host": [
-								"localhost"
+								"{{host}}"
 							],
-							"port": "8181",
 							"path": [
 								"validation",
 								"convert"
@@ -175,12 +165,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8181/restclient/helloworld",
-							"protocol": "http",
+							"raw": "{{host}}/restclient/helloworld",
 							"host": [
-								"localhost"
+								"{{host}}"
 							],
-							"port": "8181",
 							"path": [
 								"restclient",
 								"helloworld"
