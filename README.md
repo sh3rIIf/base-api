@@ -30,7 +30,7 @@ This module shows how to call another REST API for inter-service communication i
 This module will show how to implement basic authentication on endpoints.
 
 ### allinone - TODO
-This module combines all other concepts into a single module. For example with this module we can shows what an endpoint looks like that has request validation and makes use of a database.
+This module combines all other concepts into a single module. For example, with this module we can show what an endpoint looks like that has request validation and makes use of a database.
 
 ## Folders
 Explanation of folders within the repo.
@@ -39,10 +39,10 @@ Explanation of folders within the repo.
 All documentation related to the repo can be found here.
 
 ### testing
-Files related to testing eg. postman scripts can be found here.
+Files related to testing e.g. postman scripts can be found here.
 
 ### docker - TODO
-Docker compose files to startup relevant infrastructure for use with the repo eg. redis server for caching. Also add dockerfile to containerise the monolith.
+Docker compose files to startup relevant infrastructure for use with the repo e.g. redis server for caching. Also add dockerfile to containerise the monolith.
 
 ## TODO
 Following to be included in future releases(excludes items marked as TODO in other sections):
